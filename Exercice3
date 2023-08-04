@@ -1,0 +1,10 @@
+Algorithme 	Table de multiplication 
+Var:
+	i,j: Entiers;
+Début
+	Pour i ---> 1 à 10 pas de 1:
+	  Pour j ---> 0 à 10 pas de 1:
+	   Ecrire i,"x",j"=",i x j;
+	  Fin Pour
+	Fin Pour
+Fin
