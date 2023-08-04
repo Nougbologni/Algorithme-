@@ -1,0 +1,11 @@
+Algorithme	Produit;
+Var:
+    a,b,p: Entiers;
+Début
+	Ecrire "Entrez un nombre";
+	Lire a;
+	Ecrire "Entrez deuxième nombre";
+	Lire b;
+	p <--- a x b;
+	Ecrire "Le produit de",a"et",b"=",p;
+Fin
