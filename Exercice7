@@ -1,0 +1,16 @@
+Algorithme	Nombre;
+Var:
+    n,m: Entiers;
+Début
+	Ecrire "Entrez un nombre";
+	Lire n;
+	Ecrire "Entrez un nombre";
+	Lire m;
+	Si m x n > 0 alors:
+	Ecrire "Positif";
+	Sinon si m x n < 0 alors;
+	Ecrire "Négatif";
+	Sinon
+	Ecrire "Nul";
+	Finsi
+Fin
