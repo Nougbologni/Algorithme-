@@ -1,0 +1,19 @@
+Algorithme	Mot cache;
+Var:
+    nom: chaînes de caractères;
+    compteur: Entiers;
+Début
+	Ecrire "Veuillez entrer un nom";
+	Lire nom;
+	compteur <--- 1;
+	Tant que (nom <> "ZZZZ") faire:
+	  Ecrire "Essaie N°",compteur;
+	  Ecrire "Vous avez entrer",nom;
+	  Ecrire "Incorrect! Reesayez";
+	  Lire nom;
+	  compteur <--- compteur + 1;
+	Fin tant que
+	Si nom = "ZZZZ" alors:
+	 Ecrire "Bravo";
+	Finsi
+Fin
