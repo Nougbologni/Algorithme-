@@ -1,0 +1,10 @@
+Algotithme	Multiplicaction;
+Var:
+    i,j: Entiers;
+Début
+	Ecrire "Entrez un nombre";
+	Lire i;
+	Pour j ---> 1 à 10 Pas de 1:
+	Ecrire i,"x",j"=",ixj;
+	Fin Pour
+Fin
