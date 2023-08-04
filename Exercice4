@@ -1,0 +1,19 @@
+Algorithme	Nfactoriel;
+Var:
+    n,m: Entiers;
+Début
+	Ecrire "Entrez un nombre";
+	Lire n;
+	Si (n = 0) alors:
+	  Ecrire "Le factoriel de 0 est: 1;
+	Sinon si (n < 0) alors:
+	  Ecrire "Le factoriel de ce nombre n'existe pas";
+	Sinon
+	  m <--- n - 1;
+	  Tant que (m != 0) faire: 
+	    n <--- n x m;
+	    m <--- m - 1;
+	  Fin Tant que
+	Ecrire "Le factoriel de ce nombre est",n;
+	Finsi
+Fin
